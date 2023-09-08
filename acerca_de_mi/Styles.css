@@ -1,0 +1,80 @@
+body {
+    text-align: center;
+    background-image: url('https://images.hdqwalls.com/wallpapers/white-cube-pattern-4k-bu.jpg');
+ font-family: Arial, sans-serif;
+}
+@media only screen and (max-width: 600px) {
+    header, #info-personal, #habilidades  {
+        padding: 10px;
+     }
+     h1, h2 {
+        font-size: 18px;
+        }
+     }
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    header, #info-personal, #habilidades {
+    padding: 20px;
+    }
+    h1, h2 {
+        font-size: 22px;
+        }
+    }
+@media only screen and (min-width: 1025px) {
+    header, #info-personal, #habilidades {
+        padding: 30px;
+        }
+        h1, h2 {
+        font-size: 28px;
+        }
+}        
+
+
+header {
+ background-color: #d7d7d780;
+ padding: 20px;
+}
+section {
+ margin: 20px;
+}
+footer {
+ background-color: #ffb1d9b9;
+ padding: 10px;
+}
+ 
+ body {
+ font-size: 16px;
+  }
+ 
+ header, section, footer {
+ padding: 10px;
+ }
+ 
+ footer {
+     font-size: 16px;
+     transition: font-size 0.5s ease-in-out
+ }
+
+footer:hover {
+    font-size: 24px;
+}
+
+@keyframes mianimacion {
+    0% {
+      background-color: rgb(255, 150, 255);
+    }
+    50% {
+      background-color: rgb(255, 150, 255);
+    }
+    100% {
+      background-color: rgb(255, 150, 255);
+    }
+  }
+  #mianimacion {
+    
+    width: 100%s;
+    height: 100px;
+    animation: miAnimacion 3s infinite; 
+    text-align: center;
+  }
+  
